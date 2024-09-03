@@ -1,0 +1,15 @@
+appName: apple
+
+port: 5678
+targetPort: 5678
+
+namespace: default
+
+image:
+  name: hashicorp/http-echo
+  tag: latest
+
+hostName: app.rke2.localdomain
+path: /apple
+ingressClassName: nginx-external
+outText: "-text=apple"

@@ -1,0 +1,5 @@
+This helm chart has creates an application `apple`
+1. httpd deployment
+2. it's clusterIP service
+3. Ingress with host app.rke2.localdomain
+4. with path `host/apple`
